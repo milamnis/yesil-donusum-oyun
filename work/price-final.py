@@ -1,0 +1,9 @@
+exec(open('work/price-research.py',encoding='utf-8').read().split("setp('rev-tap-repair'")[0])
+setp('rev-tap-aerator',295,295,'ECA dış dişli M24x1 perlatör grubu 102133004NHZ','https://www.cagriyapi.com.tr/product-page/eca-perlat%C3%B6r-m24x1-102133004nhz')
+setp('rev-shower-compact',1009,1009.44,'Hansgrohe Activera S 95 mm tek fonksiyon EcoSmart+ 28032000','https://www.yapimarka.com/dus-takimlari?sayfa=25','Satıcı kategori sayfasındaki sepette fiyat; yalnız başlık. Teknik akış sınırlayıcı teyidi: https://www.hansgrohe.com.tr/articledetail-activera-s-el-dusu-95-1jet-ecosmart-28032000. Marka örneği; tüm küçük başlıklar bu fiyat veya etkiye sahip değildir.')
+setp('rev-shower-classic',210,210,'Tema Arya tek fonksiyon krom el duş başlığı, blister','https://www.yiltas.com/urun/tema-arya-dus-basligi-blister-600180060100055180','Arama dizininde görülen satıcı ilanı; canlı sayfa açılamadı. Referans stok garantisi değildir.')
+setp('rev-shower-rain',2515,2514.96,'Artema Base Round A45904 200 mm krom tek başlık','https://online.evdema.com/artema-base-round-dus-basligi-1f-200-mm-krom-a45904','Yalnız başlık; kolon/armatür dahil değil. Oyun tüketim etkisi marka hakkında iddia değil, senaryo karşılaştırmasıdır.')
+for id in ['rev-pack-towel-kraft','rev-pack-scarf-kraft']:
+ setp(id,8,201.6/25,'25x12x31 cm bükümlü saplı kraft çanta, 25 adet / 201,60 TL KDV dahil','https://kullanatpazari.com/naturel-kraft-canta-orta-boy-25x12x31-cm','1 ambalaj payı 201,60 / 25; içindeki tekstil ürünü hariç.')
+dump('src/data/market-prices.json',d)
+cp=data('src/decisions/copy.json');cp['rev-shower-classic']['title']='Standart Duş Başlığı';cp['rev-shower-classic']['shortDescription']='Standart hortuma takılan krom el duşu.';cp['rev-shower-classic']['resultTitle']='Standart başlık takıldı.';cp['rev-shower-classic']['resultText']='Bu senaryoda akış sınırlayıcı başlık kadar su azaltmadı. Evde seçerken akış özelliğini kontrol edebilirsin.';dump('src/decisions/copy.json',cp)

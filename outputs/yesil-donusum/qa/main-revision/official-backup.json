@@ -1,0 +1,150 @@
+{
+  "version": 2,
+  "revision": 20,
+  "active": {
+    "version": 2,
+    "id": "3ded9336-54bf-42c9-b82a-f40bd2cc7306",
+    "team": {
+      "organization": "Toplumsal Değişme ve Emekçi Kadın Girişimi Kooperatifi",
+      "first": "QA Deniz",
+      "second": "QA Ece",
+      "mode": "official"
+    },
+    "round": 4,
+    "bill": 10000,
+    "budget": 2350,
+    "inventory": [],
+    "installed": [
+      "rev-tap-aerator"
+    ],
+    "activeInstallations": [
+      "rev-tap-aerator"
+    ],
+    "replacedInstallations": [],
+    "budgetMoments": [],
+    "actions": [],
+    "combos": [],
+    "moves": [
+      {
+        "id": "rev-tap-aerator",
+        "name": "Musluk Ucu (Perlatör)",
+        "impact": 0,
+        "cost": 150,
+        "room": "kitchen",
+        "round": 1
+      }
+    ],
+    "history": [
+      {
+        "round": 1,
+        "before": 10000,
+        "after": 10000,
+        "saving": 0,
+        "reward": 0
+      },
+      {
+        "round": 2,
+        "before": 10000,
+        "after": 10000,
+        "saving": 0,
+        "reward": 0
+      },
+      {
+        "round": 3,
+        "before": 10000,
+        "after": 10000,
+        "saving": 0,
+        "reward": 0
+      },
+      {
+        "round": 4,
+        "before": 10000,
+        "after": 10000,
+        "saving": 0,
+        "reward": 0
+      }
+    ],
+    "phase": "finished",
+    "room": "map",
+    "tutorial": false,
+    "journeyVersion": 1,
+    "discoveries": [
+      {
+        "round": 1,
+        "room": "kitchen",
+        "zone": "rev-tap"
+      }
+    ],
+    "considered": [
+      {
+        "round": 1,
+        "productId": "rev-tap-aerator"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "rev-tap-aerator",
+        "title": "Damlatma devam ediyor.",
+        "result": "Musluk ucu akışı düzenler; aşınmış contayı onarmaz.",
+        "realLife": "",
+        "takeaway": "",
+        "memoryName": "Musluk Ucu (Perlatör)",
+        "asset": "sprites/generated/faucet-aerator",
+        "category": "Su",
+        "billImpact": 0,
+        "comboImpact": 0,
+        "spent": 150,
+        "tone": "bad",
+        "acknowledged": true,
+        "remind": false
+      }
+    ],
+    "decisionVersion": 1,
+    "decisions": [
+      {
+        "opportunityId": "tap",
+        "choiceId": "rev-tap-aerator",
+        "round": 1
+      }
+    ],
+    "sorting": {
+      "waste-sort": {
+        "firstAnswers": {
+          "tissue": "other"
+        },
+        "placed": [
+          "tissue"
+        ]
+      }
+    },
+    "originScene": "kitchen",
+    "originZone": "rev-tap",
+    "realLifePledges": [
+      "Evde damlayan muslukları kontrol edeceğiz.",
+      "Evde ve işte küçük kayıpları kontrol edeceğiz.",
+      "Yeni bir ürün almadan önce ihtiyacımızı konuşacağız."
+    ]
+  },
+  "results": [
+    {
+      "id": "3ded9336-54bf-42c9-b82a-f40bd2cc7306",
+      "team": {
+        "organization": "Toplumsal Değişme ve Emekçi Kadın Girişimi Kooperatifi",
+        "first": "QA Deniz",
+        "second": "QA Ece",
+        "mode": "official"
+      },
+      "bill": 10000,
+      "budget": 2350,
+      "savingPercent": 0,
+      "score": 20,
+      "completedAt": "2026-10-05T00:07:12.082Z",
+      "rulesVersion": 1,
+      "realLifePledges": [
+        "Evde damlayan muslukları kontrol edeceğiz.",
+        "Evde ve işte küçük kayıpları kontrol edeceğiz.",
+        "Yeni bir ürün almadan önce ihtiyacımızı konuşacağız."
+      ]
+    }
+  ]
+}

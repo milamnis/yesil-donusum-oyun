@@ -1,0 +1,838 @@
+{
+  "faucet-aerator": {
+    "source": "OBJECT_SHEET_IRRIGATION_METHODS_FINAL.png.png",
+    "sourceSHA256": "34f07cbf7e77b554f6731abeaeb0a04de95c3901ecb25414b02f01628c88e916",
+    "cell": [
+      0,
+      0,
+      724,
+      724
+    ],
+    "trim": [
+      163,
+      177,
+      547,
+      577
+    ],
+    "width": 384,
+    "height": 400,
+    "asset": "sprites/generated/faucet-aerator"
+  },
+  "faucet-repair": {
+    "source": "OBJECT_SHEET_IRRIGATION_METHODS_FINAL.png.png",
+    "sourceSHA256": "34f07cbf7e77b554f6731abeaeb0a04de95c3901ecb25414b02f01628c88e916",
+    "cell": [
+      724,
+      0,
+      1448,
+      724
+    ],
+    "trim": [
+      48,
+      113,
+      689,
+      594
+    ],
+    "width": 641,
+    "height": 481,
+    "asset": "sprites/generated/faucet-repair"
+  },
+  "faucet-filter": {
+    "source": "OBJECT_SHEET_IRRIGATION_METHODS_FINAL.png.png",
+    "sourceSHA256": "34f07cbf7e77b554f6731abeaeb0a04de95c3901ecb25414b02f01628c88e916",
+    "cell": [
+      1448,
+      0,
+      2172,
+      724
+    ],
+    "trim": [
+      127,
+      72,
+      636,
+      637
+    ],
+    "width": 509,
+    "height": 565,
+    "asset": "sprites/generated/faucet-filter"
+  },
+  "shower-compact": {
+    "source": "OBJECT_SHEET_SHOWER_CHOICES_FINAL.png.png",
+    "sourceSHA256": "01003e9de57696037f5c56b6929923fbf3b3a441328c7124ef03beef47d8b487",
+    "cell": [
+      0,
+      0,
+      724,
+      724
+    ],
+    "trim": [
+      78,
+      81,
+      724,
+      598
+    ],
+    "width": 646,
+    "height": 517,
+    "asset": "sprites/generated/shower-compact"
+  },
+  "shower-classic": {
+    "source": "OBJECT_SHEET_SHOWER_CHOICES_FINAL.png.png",
+    "sourceSHA256": "01003e9de57696037f5c56b6929923fbf3b3a441328c7124ef03beef47d8b487",
+    "cell": [
+      724,
+      0,
+      1448,
+      724
+    ],
+    "trim": [
+      0,
+      74,
+      724,
+      648
+    ],
+    "width": 724,
+    "height": 574,
+    "asset": "sprites/generated/shower-classic"
+  },
+  "shower-rain": {
+    "source": "OBJECT_SHEET_SHOWER_CHOICES_FINAL.png.png",
+    "sourceSHA256": "01003e9de57696037f5c56b6929923fbf3b3a441328c7124ef03beef47d8b487",
+    "cell": [
+      1448,
+      0,
+      2172,
+      724
+    ],
+    "trim": [
+      0,
+      63,
+      662,
+      671
+    ],
+    "width": 662,
+    "height": 608,
+    "asset": "sprites/generated/shower-rain"
+  },
+  "bulb-incandescent": {
+    "source": "OBJECT_SHEET_LIGHTING_CHOICES.png.png",
+    "sourceSHA256": "81f18cebe1685de3b9df20c1a42c933955e414aa2f7fed3c93eca08611b0b62b",
+    "cell": [
+      0,
+      0,
+      591,
+      887
+    ],
+    "trim": [
+      112,
+      103,
+      539,
+      781
+    ],
+    "width": 427,
+    "height": 678,
+    "asset": "sprites/generated/bulb-incandescent"
+  },
+  "bulb-halogen": {
+    "source": "OBJECT_SHEET_LIGHTING_CHOICES.png.png",
+    "sourceSHA256": "81f18cebe1685de3b9df20c1a42c933955e414aa2f7fed3c93eca08611b0b62b",
+    "cell": [
+      591,
+      0,
+      1183,
+      887
+    ],
+    "trim": [
+      83,
+      107,
+      509,
+      785
+    ],
+    "width": 426,
+    "height": 678,
+    "asset": "sprites/generated/bulb-halogen"
+  },
+  "bulb-led": {
+    "source": "OBJECT_SHEET_LIGHTING_CHOICES.png.png",
+    "sourceSHA256": "81f18cebe1685de3b9df20c1a42c933955e414aa2f7fed3c93eca08611b0b62b",
+    "cell": [
+      1183,
+      0,
+      1774,
+      887
+    ],
+    "trim": [
+      58,
+      105,
+      481,
+      786
+    ],
+    "width": 423,
+    "height": 681,
+    "asset": "sprites/generated/bulb-led"
+  },
+  "irrigation-hose": {
+    "source": "OBJ_IRRIGATION_TIMER_INSTALLED.png.png",
+    "sourceSHA256": "04919db0049ee78fa0cf200de98b8546014aa1cad0c99d3df053205a7f9c9291",
+    "cell": [
+      0,
+      0,
+      724,
+      724
+    ],
+    "trim": [
+      16,
+      74,
+      724,
+      647
+    ],
+    "width": 708,
+    "height": 573,
+    "asset": "sprites/generated/irrigation-hose"
+  },
+  "irrigation-sprinkler": {
+    "source": "OBJ_IRRIGATION_TIMER_INSTALLED.png.png",
+    "sourceSHA256": "04919db0049ee78fa0cf200de98b8546014aa1cad0c99d3df053205a7f9c9291",
+    "cell": [
+      724,
+      0,
+      1448,
+      724
+    ],
+    "trim": [
+      0,
+      168,
+      724,
+      604
+    ],
+    "width": 724,
+    "height": 436,
+    "asset": "sprites/generated/irrigation-sprinkler"
+  },
+  "irrigation-drip": {
+    "source": "OBJ_IRRIGATION_TIMER_INSTALLED.png.png",
+    "sourceSHA256": "04919db0049ee78fa0cf200de98b8546014aa1cad0c99d3df053205a7f9c9291",
+    "cell": [
+      1448,
+      0,
+      2172,
+      724
+    ],
+    "trim": [
+      0,
+      127,
+      702,
+      644
+    ],
+    "width": 702,
+    "height": 517,
+    "asset": "sprites/generated/irrigation-drip"
+  },
+  "lentil-plastic": {
+    "source": "OBJECT_SHEET_FOOD_PACKAGING_FINAL.png.png",
+    "sourceSHA256": "0540ec1ca586c438695cbe330e03f3feb7f6449be0a317ffaac0a08f557b4d2b",
+    "cell": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "trim": [
+      86,
+      17,
+      457,
+      512
+    ],
+    "width": 371,
+    "height": 495,
+    "asset": "sprites/generated/lentil-plastic"
+  },
+  "lentil-paper": {
+    "source": "OBJECT_SHEET_FOOD_PACKAGING_FINAL.png.png",
+    "sourceSHA256": "0540ec1ca586c438695cbe330e03f3feb7f6449be0a317ffaac0a08f557b4d2b",
+    "cell": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "trim": [
+      66,
+      22,
+      445,
+      484
+    ],
+    "width": 379,
+    "height": 462,
+    "asset": "sprites/generated/lentil-paper"
+  },
+  "lentil-return": {
+    "source": "OBJECT_SHEET_FOOD_PACKAGING_FINAL.png.png",
+    "sourceSHA256": "0540ec1ca586c438695cbe330e03f3feb7f6449be0a317ffaac0a08f557b4d2b",
+    "cell": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "trim": [
+      71,
+      27,
+      396,
+      480
+    ],
+    "width": 325,
+    "height": 453,
+    "asset": "sprites/generated/lentil-return"
+  },
+  "apple-plastic": {
+    "source": "OBJECT_SHEET_FOOD_PACKAGING_FINAL.png.png",
+    "sourceSHA256": "0540ec1ca586c438695cbe330e03f3feb7f6449be0a317ffaac0a08f557b4d2b",
+    "cell": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "trim": [
+      57,
+      0,
+      496,
+      463
+    ],
+    "width": 439,
+    "height": 463,
+    "asset": "sprites/generated/apple-plastic"
+  },
+  "apple-paper": {
+    "source": "OBJECT_SHEET_FOOD_PACKAGING_FINAL.png.png",
+    "sourceSHA256": "0540ec1ca586c438695cbe330e03f3feb7f6449be0a317ffaac0a08f557b4d2b",
+    "cell": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "trim": [
+      57,
+      15,
+      455,
+      480
+    ],
+    "width": 398,
+    "height": 465,
+    "asset": "sprites/generated/apple-paper"
+  },
+  "apple-mesh": {
+    "source": "OBJECT_SHEET_FOOD_PACKAGING_FINAL.png.png",
+    "sourceSHA256": "0540ec1ca586c438695cbe330e03f3feb7f6449be0a317ffaac0a08f557b4d2b",
+    "cell": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "trim": [
+      15,
+      8,
+      475,
+      468
+    ],
+    "width": 460,
+    "height": 460,
+    "asset": "sprites/generated/apple-mesh"
+  },
+  "towel-plastic": {
+    "source": "OBJECT_SHEET_TEXTILE_PACKAGING_FINAL_V2.png.png",
+    "sourceSHA256": "dde06fba1a4c2b2d426092c17429c357758c89399b3d377edc003ddb98c4e7d4",
+    "cell": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "trim": [
+      48,
+      8,
+      476,
+      512
+    ],
+    "width": 428,
+    "height": 504,
+    "asset": "sprites/generated/towel-plastic"
+  },
+  "towel-box": {
+    "source": "OBJECT_SHEET_TEXTILE_PACKAGING_FINAL_V2.png.png",
+    "sourceSHA256": "dde06fba1a4c2b2d426092c17429c357758c89399b3d377edc003ddb98c4e7d4",
+    "cell": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "trim": [
+      23,
+      37,
+      504,
+      512
+    ],
+    "width": 481,
+    "height": 475,
+    "asset": "sprites/generated/towel-box"
+  },
+  "towel-kraft": {
+    "source": "OBJECT_SHEET_TEXTILE_PACKAGING_FINAL_V2.png.png",
+    "sourceSHA256": "dde06fba1a4c2b2d426092c17429c357758c89399b3d377edc003ddb98c4e7d4",
+    "cell": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "trim": [
+      72,
+      13,
+      464,
+      512
+    ],
+    "width": 392,
+    "height": 499,
+    "asset": "sprites/generated/towel-kraft"
+  },
+  "scarf-plastic": {
+    "source": "OBJECT_SHEET_TEXTILE_PACKAGING_FINAL_V2.png.png",
+    "sourceSHA256": "dde06fba1a4c2b2d426092c17429c357758c89399b3d377edc003ddb98c4e7d4",
+    "cell": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "trim": [
+      45,
+      0,
+      484,
+      481
+    ],
+    "width": 439,
+    "height": 481,
+    "asset": "sprites/generated/scarf-plastic"
+  },
+  "scarf-box": {
+    "source": "OBJECT_SHEET_TEXTILE_PACKAGING_FINAL_V2.png.png",
+    "sourceSHA256": "dde06fba1a4c2b2d426092c17429c357758c89399b3d377edc003ddb98c4e7d4",
+    "cell": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "trim": [
+      18,
+      0,
+      504,
+      510
+    ],
+    "width": 486,
+    "height": 510,
+    "asset": "sprites/generated/scarf-box"
+  },
+  "scarf-kraft": {
+    "source": "OBJECT_SHEET_TEXTILE_PACKAGING_FINAL_V2.png.png",
+    "sourceSHA256": "dde06fba1a4c2b2d426092c17429c357758c89399b3d377edc003ddb98c4e7d4",
+    "cell": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "trim": [
+      67,
+      0,
+      477,
+      499
+    ],
+    "width": 410,
+    "height": 499,
+    "asset": "sprites/generated/scarf-kraft"
+  },
+  "waste-paper": {
+    "source": "OBJECT_SHEET_WASTE_SORTING.png.png",
+    "sourceSHA256": "5d2a0289f31db189e60ef362a30eb50b27a21ec4a694bd41f2109add02b3233e",
+    "cell": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "trim": [
+      27,
+      106,
+      512,
+      472
+    ],
+    "width": 485,
+    "height": 366,
+    "asset": "sprites/generated/waste-paper"
+  },
+  "waste-plastic": {
+    "source": "OBJECT_SHEET_WASTE_SORTING.png.png",
+    "sourceSHA256": "5d2a0289f31db189e60ef362a30eb50b27a21ec4a694bd41f2109add02b3233e",
+    "cell": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "trim": [
+      0,
+      18,
+      402,
+      482
+    ],
+    "width": 402,
+    "height": 464,
+    "asset": "sprites/generated/waste-plastic"
+  },
+  "waste-glass": {
+    "source": "OBJECT_SHEET_WASTE_SORTING.png.png",
+    "sourceSHA256": "5d2a0289f31db189e60ef362a30eb50b27a21ec4a694bd41f2109add02b3233e",
+    "cell": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "trim": [
+      91,
+      116,
+      473,
+      472
+    ],
+    "width": 382,
+    "height": 356,
+    "asset": "sprites/generated/waste-glass"
+  },
+  "waste-metal": {
+    "source": "OBJECT_SHEET_WASTE_SORTING.png.png",
+    "sourceSHA256": "5d2a0289f31db189e60ef362a30eb50b27a21ec4a694bd41f2109add02b3233e",
+    "cell": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "trim": [
+      83,
+      19,
+      512,
+      451
+    ],
+    "width": 429,
+    "height": 432,
+    "asset": "sprites/generated/waste-metal"
+  },
+  "waste-organic": {
+    "source": "OBJECT_SHEET_WASTE_SORTING.png.png",
+    "sourceSHA256": "5d2a0289f31db189e60ef362a30eb50b27a21ec4a694bd41f2109add02b3233e",
+    "cell": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "trim": [
+      0,
+      22,
+      512,
+      458
+    ],
+    "width": 512,
+    "height": 436,
+    "asset": "sprites/generated/waste-organic"
+  },
+  "waste-tissue": {
+    "source": "OBJECT_SHEET_WASTE_SORTING.png.png",
+    "sourceSHA256": "5d2a0289f31db189e60ef362a30eb50b27a21ec4a694bd41f2109add02b3233e",
+    "cell": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "trim": [
+      0,
+      96,
+      463,
+      435
+    ],
+    "width": 463,
+    "height": 339,
+    "asset": "sprites/generated/waste-tissue"
+  },
+  "clothes-white": {
+    "source": "OBJECT_SHEET_LAUNDRY_CLOTHES.png.png",
+    "sourceSHA256": "463a9e52fff4f2d454dcc549b25b4c8c3b546a4b1d0e66c5176b477ebebcf031",
+    "cell": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "trim": [
+      35,
+      93,
+      502,
+      489
+    ],
+    "width": 467,
+    "height": 396,
+    "asset": "sprites/generated/clothes-white"
+  },
+  "clothes-color": {
+    "source": "OBJECT_SHEET_LAUNDRY_CLOTHES.png.png",
+    "sourceSHA256": "463a9e52fff4f2d454dcc549b25b4c8c3b546a4b1d0e66c5176b477ebebcf031",
+    "cell": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "trim": [
+      26,
+      93,
+      488,
+      477
+    ],
+    "width": 462,
+    "height": 384,
+    "asset": "sprites/generated/clothes-color"
+  },
+  "clothes-dark": {
+    "source": "OBJECT_SHEET_LAUNDRY_CLOTHES.png.png",
+    "sourceSHA256": "463a9e52fff4f2d454dcc549b25b4c8c3b546a4b1d0e66c5176b477ebebcf031",
+    "cell": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "trim": [
+      12,
+      85,
+      487,
+      477
+    ],
+    "width": 475,
+    "height": 392,
+    "asset": "sprites/generated/clothes-dark"
+  },
+  "basket-white": {
+    "source": "OBJECT_SHEET_LAUNDRY_CLOTHES.png.png",
+    "sourceSHA256": "463a9e52fff4f2d454dcc549b25b4c8c3b546a4b1d0e66c5176b477ebebcf031",
+    "cell": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "trim": [
+      24,
+      42,
+      501,
+      426
+    ],
+    "width": 477,
+    "height": 384,
+    "asset": "sprites/generated/basket-white"
+  },
+  "basket-color": {
+    "source": "OBJECT_SHEET_LAUNDRY_CLOTHES.png.png",
+    "sourceSHA256": "463a9e52fff4f2d454dcc549b25b4c8c3b546a4b1d0e66c5176b477ebebcf031",
+    "cell": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "trim": [
+      20,
+      42,
+      495,
+      424
+    ],
+    "width": 475,
+    "height": 382,
+    "asset": "sprites/generated/basket-color"
+  },
+  "basket-dark": {
+    "source": "OBJECT_SHEET_LAUNDRY_CLOTHES.png.png",
+    "sourceSHA256": "463a9e52fff4f2d454dcc549b25b4c8c3b546a4b1d0e66c5176b477ebebcf031",
+    "cell": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "trim": [
+      14,
+      41,
+      491,
+      426
+    ],
+    "width": 477,
+    "height": 385,
+    "asset": "sprites/generated/basket-dark"
+  },
+  "bag-paper": {
+    "source": "Renkli Mandallı Altı Plastik Torba.png",
+    "sourceSHA256": "452533fe6b1156a33e5421cc248fbcf443c340418176357f4d57b3eb09eaa807",
+    "cell": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "trim": [
+      82,
+      26,
+      492,
+      495
+    ],
+    "width": 410,
+    "height": 469,
+    "asset": "sprites/generated/bag-paper"
+  },
+  "bag-plastic": {
+    "source": "Renkli Mandallı Altı Plastik Torba.png",
+    "sourceSHA256": "452533fe6b1156a33e5421cc248fbcf443c340418176357f4d57b3eb09eaa807",
+    "cell": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "trim": [
+      63,
+      27,
+      472,
+      493
+    ],
+    "width": 409,
+    "height": 466,
+    "asset": "sprites/generated/bag-plastic"
+  },
+  "bag-glass": {
+    "source": "Renkli Mandallı Altı Plastik Torba.png",
+    "sourceSHA256": "452533fe6b1156a33e5421cc248fbcf443c340418176357f4d57b3eb09eaa807",
+    "cell": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "trim": [
+      43,
+      26,
+      450,
+      493
+    ],
+    "width": 407,
+    "height": 467,
+    "asset": "sprites/generated/bag-glass"
+  },
+  "bag-metal": {
+    "source": "Renkli Mandallı Altı Plastik Torba.png",
+    "sourceSHA256": "452533fe6b1156a33e5421cc248fbcf443c340418176357f4d57b3eb09eaa807",
+    "cell": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "trim": [
+      83,
+      16,
+      497,
+      480
+    ],
+    "width": 414,
+    "height": 464,
+    "asset": "sprites/generated/bag-metal"
+  },
+  "bag-organic": {
+    "source": "Renkli Mandallı Altı Plastik Torba.png",
+    "sourceSHA256": "452533fe6b1156a33e5421cc248fbcf443c340418176357f4d57b3eb09eaa807",
+    "cell": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "trim": [
+      63,
+      12,
+      473,
+      478
+    ],
+    "width": 410,
+    "height": 466,
+    "asset": "sprites/generated/bag-organic"
+  },
+  "bag-other": {
+    "source": "Renkli Mandallı Altı Plastik Torba.png",
+    "sourceSHA256": "452533fe6b1156a33e5421cc248fbcf443c340418176357f4d57b3eb09eaa807",
+    "cell": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "trim": [
+      45,
+      15,
+      454,
+      480
+    ],
+    "width": 409,
+    "height": 465,
+    "asset": "sprites/generated/bag-other"
+  },
+  "basin": {
+    "source": "OBJ_BATHROOM_BASIN.png.png",
+    "sourceSHA256": "0e06b8367fd206851820a4dd26b804c091bad374535d443c9625971bfaac3546",
+    "cell": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "trim": [
+      95,
+      250,
+      1161,
+      1077
+    ],
+    "width": 1066,
+    "height": 827,
+    "asset": "sprites/generated/basin"
+  },
+  "irrigation-timer": {
+    "source": "OBJ_IRRIGATION_TIMER.png.png",
+    "sourceSHA256": "b2f397a942dc6b0c610186690df17b75796688d189c77459787d53e2f0fd254e",
+    "cell": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "trim": [
+      258,
+      77,
+      841,
+      1440
+    ],
+    "width": 583,
+    "height": 1363,
+    "asset": "sprites/generated/irrigation-timer"
+  }
+}

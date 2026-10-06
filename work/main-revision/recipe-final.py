@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('outputs/yesil-donusum/scripts/build_revision_sprites.py');s=p.read_text(encoding='utf-8').replace("('rain',(0,136,662,608),(0,0,233,80))","('rain',(0,136,662,608),(0,0,233,45))");s=s.replace("ImageDraw.Draw(im).rectangle(erase,fill=(0,0,0,0));im.save", "ImageDraw.Draw(im).rectangle(erase,fill=(0,0,0,0));\n if name=='rain':ImageDraw.Draw(im).rectangle((0,0,220,80),fill=(0,0,0,0))\n im.save");p.write_text(s,encoding='utf-8')
